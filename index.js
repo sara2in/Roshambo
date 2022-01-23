@@ -6,13 +6,13 @@ class Game {
     }
     static compute (player, computer) {
         //rock beats scissors
-        if(player === 'Rock' && computer === 'Scissors' ){return 'Player wins!'};
+        if(player === 'Rock' && computer === 'Scissors' ){return 'You win!'};
         if(computer === 'Rock'  && player === 'Scissors' ){return 'Computer wins!'};
         //scissors beats paper
-        if(player === 'Scissors' && computer === 'Paper' ){return 'Player wins!'};
+        if(player === 'Scissors' && computer === 'Paper' ){return 'You win!'};
         if(computer === 'Scissors'  && player === 'Paper' ){return 'Computer wins!'};
         //paper beats rock
-        if(player === 'Paper' && computer === 'Rock' ){return 'Player wins!'};
+        if(player === 'Paper' && computer === 'Rock' ){return 'You win!'};
         if(computer === 'Paper'  && player === 'Rock' ){return 'Computer wins!'};
         //same choice picked
         if(computer === 'Paper'  && player === 'Paper' ){return `It's a tie!`};
